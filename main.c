@@ -68,7 +68,16 @@ void radixsort(int arr[], int n) {
 	int m = getMax(arr, n);
 
 	int exp;
-	for (exp = 1; m / exp > 0; exp *= 10)
+
+	//1`100‚ÌŒ…‚Ü‚Å3‰ñ‚â‚é‚Ð‚Â‚æ‚¤‚ª‚ ‚éH
+	//for (exp = 1; m / exp > 0; exp *= 10)
+	//{
+	//	countSort(arr, n, exp);
+	//	print(arr, n);
+	//}
+
+	int i = 0;
+	for (exp = 1, i = 0; i < 3; i++, exp *= 10)
 	{
 		countSort(arr, n, exp);
 		print(arr, n);
@@ -95,7 +104,7 @@ int main(int argc, char *argv[])
 
 
 	print(data, count);
-	radixsort(data, 100);
+	radixsort(data, count);
 
 	free(data);
 
