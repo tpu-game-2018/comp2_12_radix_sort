@@ -16,7 +16,7 @@
 
 # テスト結果
 
-[![Build Status](https://travis-ci.org/t-kougei-game-comp-2018/12_radix_sort.svg?branch=master)](https://travis-ci.org/t-kougei-game-comp-2018/12_radix_sort)
+[![Build Status](https://travis-ci.org/Narita1910/12_radix_sort.svg?branch=master)](https://travis-ci.org/Narita1910/12_radix_sort)
 
 # 今回の問題
 
