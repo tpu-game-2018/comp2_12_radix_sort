@@ -2,6 +2,9 @@
 #include <stdlib.h>
 #include <string.h>
 
+
+
+
 void print(int arr[], int n) {
 	int c = 0;
 	for (int i = 0; i < n; i++)
@@ -93,6 +96,8 @@ int main(int argc, char *argv[])
 
 	print(data, count);
 	radixsort(data, 100);
+
+	free(data);
 
 	return 0;
 }
